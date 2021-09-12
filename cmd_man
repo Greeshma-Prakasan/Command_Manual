@@ -3,7 +3,7 @@
 import sys
 import json
 
-def help_msg():
+def help_message():
     print('Wrong option')
     print('Usage:./cmd_man -[als] argument')
     print('Examples:')
@@ -42,6 +42,6 @@ try:
                     else:
                         continue
     else:
-        help_msg()
+        help_message()
 except:
-    help_msg()
+    help_message()
